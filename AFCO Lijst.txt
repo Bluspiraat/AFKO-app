@@ -1,5 +1,5 @@
 ﻿A
-A/ = anamnese
+A = anamnese
 a.a. = ana partes aequales, in gelijke delen (recept)
 a.c. = ante cenam, voor de maaltijd (recept)
 a.m. = ante meridiem, voor het middaguur (recept)
