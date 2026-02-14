@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AFKO - App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welkom in de AFKO app</h1>
+        <p>DE zoekmachine om medische afkorten te begrijpen.</p>
+    </header>
+
+    <div id="zoekmachine-container">
+        <section id="zoekmachine">
+            <h2>Zoekmachine</h2>
+            <p>Vul hieronder je afkorting in en bekijk de resultaten!</p>
+            <input type="text" id="searchBox" placeholder="Typ hier je afkorting...">
+            <button onclick="zoek()">Zoek</button>
+            <div id="result"></div>
+        </section>
+    </div>
+    
+    <div id="contact-container">   
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Heb je vragen of suggesties? Neem contact met ons op!</p>
+            <p><a href="mailto:broodjepoep@mail.com">E-mail</a> | <a href="tel:">Telefoon</a></p>
+        </section>
+    </div>
+
+    <script src="zoekmachine.js"></script>
+
+    <footer>
+        <p>&copy; 2026 AFKO App. All rights reserved.</p>
+    </footer>
+</body>
+</html>
